@@ -1,0 +1,19 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 主色 */
+.form-box {
+  background-color: white;
+  width: 100%;
+  height: 12.5rem;
+  margin: auto;
+  padding-top: 1.5625rem;
+}
+.form-box .input-box {
+  display: flex;
+  padding: 0.625rem;
+  border: 1px solid lightgray;
+  margin: 0 1.25rem 0;
+}
+.form-box .uni-btn-v {
+  margin: 2.5rem 1.25rem 0;
+}

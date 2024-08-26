@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 4024661 */
+  src: url("/static/iconfont.ttf") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+}
+
+.icon-jian:before {
+  content: "\e620";
+}
+
+.icon-jiangbei:before {
+  content: "\e603";
+}
+
+.icon-jiangbei-copy:before {
+  content: "\ebb8";
+}
+
+.icon-xiugaidingdan:before {
+  content: "\e8f2";
+}
+
+.icon-zhongjiangjilu:before {
+  content: "\e62f";
+}
+
+.icon-guize:before {
+  content: "\ebb7";
+}
+
+.icon-jifen:before {
+  content: "\e600";
+}
+
+.icon-qian:before {
+  content: "\e662";
+}
+
+.icon-gouwuche:before {
+  content: "\e73d";
+}
+
+.icon-daishouhuo:before {
+  content: "\e640";
+}
+
+.icon-xiangyoujiantou:before {
+  content: "\e65f";
+}
+
+.icon-iconfont20:before {
+  content: "\e621";
+}
+
+.icon-shouye2:before {
+  content: "\e643";
+}
+
+.icon-tuichudenglu:before {
+  content: "\e60b";
+}
+
+.icon-shouye:before {
+  content: "\e61b";
+}
+
+.icon-shouye1:before {
+  content: "\e62e";
+}
+
+.icon-shouye-copy:before {
+  content: "\e86f";
+}
+
+.icon-shouye1-copy:before {
+  content: "\e870";
+}
+
+.icon-mingpian:before {
+  content: "\e62d";
+}
+
+.icon-sousuo:before {
+  content: "\e86e";
+}
+
+.icon-fabu:before {
+  content: "\e618";
+}
+
+.icon-wode:before {
+  content: "\e602";
+}
+
+.icon-mingpianziliao:before {
+  content: "\e623";
+}

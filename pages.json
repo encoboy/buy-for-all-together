@@ -1,0 +1,176 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "%index.title%",
+        "app-plus": {
+          "bounce": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/renmai/index",
+      "style": {
+        "navigationBarTitleText": "购物车",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/singup/index",
+      "style": {
+        "navigationBarTitleText": "注册页面",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/detailgood/index",
+      "style": {
+        "navigationBarTitleText": "详情页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/order/index",
+      "style": {
+        "navigationBarTitleText": "提交订单",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/addressedit/index",
+      "style": {
+        "navigationBarTitleText": "管理收货地址",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/addresslist/index",
+      "style": {
+        "navigationBarTitleText": "收货地址列表",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/myinfo/index",
+      "style": {
+        "navigationBarTitleText": "个人资料",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/topup/index",
+      "style": {
+        "navigationBarTitleText": "充值页面",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/rule/rule",
+      "style": {
+        "navigationBarTitleText": "规则页面",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/finishorderlist/index",
+      "style": {
+        "navigationBarTitleText": "订单列表",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/winrecord/index",
+      "style": {
+        "navigationBarTitleText": "中奖记录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/announceHistory/index",
+      "style": {
+        "navigationBarTitleText": "往期揭晓",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/latestdisclosure/index",
+      "style": {
+        "navigationBarTitleText": "最新揭晓",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/codeList/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/computeLuckyCode/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "一起全民购",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "renderingMode": "seperated", // 仅微信小程序，webrtc 无法正常时尝试强制关闭同层渲染
+    "pageOrientation": "portrait", //横屏配置，全局屏幕旋转设置(仅 APP/微信/QQ小程序)，支持 auto / portrait / landscape
+    "rpxCalcMaxDeviceWidth": 960,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home_s.png",
+        "text": "%index.title%"
+      },
+      {
+        "pagePath": "pages/latestdisclosure/index",
+        "iconPath": "static/tabBar/win.png",
+        "selectedIconPath": "static/tabBar/win_s.png",
+        "text": "最新揭晓"
+      },
+      {
+        "pagePath": "pages/renmai/index",
+        "iconPath": "static/tabBar/car.png",
+        "selectedIconPath": "static/tabBar/car_s.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/tabBar/my.png",
+        "selectedIconPath": "static/tabBar/my_s.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

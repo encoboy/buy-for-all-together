@@ -1,0 +1,77 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 主色 */
+.my-box {
+  height: 12.5rem;
+  background-image: url("../../static/my/bg.png");
+}
+.my-box .seting-box {
+  height: 0.9375rem;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding-top: 0.625rem;
+}
+.my-box .seting-box > uni-text {
+  color: white;
+  font-size: 16px;
+  margin-right: 0.625rem;
+}
+.my-box .head-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.my-box .head-box > uni-image {
+  height: 4.6875rem;
+  width: 4.6875rem;
+  border-radius: 2.34375rem;
+}
+.my-box .head-box > uni-text {
+  color: white;
+  margin-top: 15px;
+}
+.list-seting-box .list-box {
+  width: 100%;
+  height: 2.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid lightgray;
+}
+.list-seting-box .list-box > uni-image {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+.list-seting-box .list-box > uni-text {
+  margin-left: 0.46875rem;
+}
+.jinbi-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.46875rem 0;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.jinbi-box .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jinbi-box .box > uni-text {
+  color: red;
+}
+.jinbi-box .box .text-title {
+  display: flex;
+  align-items: center;
+}
+.jinbi-box .box .text-title > uni-image {
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-right: 0.25rem;
+}

@@ -1,0 +1,1 @@
+const e=()=>{document.body.style.overflow="hidden",document.addEventListener("touchmove",(function(e){}),!1)},o=()=>{document.body.style.overflow="",document.removeEventListener("touchmove",(function(e){}),!1)};export{o as h,e as s};

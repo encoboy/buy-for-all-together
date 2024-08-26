@@ -1,0 +1,53 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 主色 */
+.order-box {
+  width: 100%;
+}
+.order-box .title {
+  background-color: white;
+  padding: 0.625rem 0.375rem;
+}
+.order-box .title > uni-text {
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.order-box .order-mingxi {
+  background-color: antiquewhite;
+}
+.order-box .order-mingxi .tips {
+  padding: 0.46875rem 0.9375rem;
+  border-bottom: 1px solid lightgray;
+}
+.order-box .order-mingxi .tips > uni-text {
+  font-size: 0.625rem;
+  color: #423e37;
+}
+.order-box .order-mingxi .detail {
+  padding: 0.78125rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+.order-box .order-mingxi .detail > uni-text {
+  font-size: 0.78125rem;
+  color: gray;
+}
+.order-box .order-mingxi .detail .req-number {
+  color: red;
+}
+.order-box .total {
+  background-color: white;
+  padding: 0.78125rem 0.46875rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.9375rem;
+}
+.order-box .total .money {
+  color: red;
+}
+.order-box .btn-box {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}

@@ -1,0 +1,156 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 主色 */
+.uni-margin-wrap {
+  width: 100%;
+}
+.uni-margin-wrap .img-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper {
+  height: 10.9375rem;
+}
+.swiper uni-image {
+  height: 10.9375rem;
+}
+.box {
+  padding: 0 12px;
+}
+.title-box {
+  margin-top: 20px;
+}
+.title-box .state {
+  display: inline-block;
+  border: 1px solid #60c04b;
+  width: 3.75rem;
+  color: #60c04b;
+  border-radius: 0.15625rem;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+}
+.title-box .title {
+  font-size: 14px;
+}
+.tips {
+  font-size: 12px;
+  color: #e97175;
+  margin: 0.3125rem 0;
+}
+.process-box {
+  display: flex;
+  margin-top: 1.25rem;
+  align-items: center;
+}
+.process-box .left {
+  flex: 8;
+  margin-right: 10px;
+}
+.process-box .left .renci-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.process-box .left .renci-box .req-number {
+  color: #fc3234;
+}
+.process-box .right {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-left: 1px solid lightgray;
+}
+.process-box .right > uni-text {
+  font-size: 20px;
+  color: #fa0037;
+}
+.buy-box {
+  margin-top: 15px;
+  background-color: #f0f0f0;
+  padding-bottom: 0.46875rem;
+}
+.buy-box .title {
+  background-color: #fa0037;
+  display: inline-block;
+  color: white;
+  padding: 5px 6px;
+  font-size: 14px;
+  border-bottom-right-radius: 15px;
+}
+.buy-box .con_box {
+  padding: 0 8px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.buy-box .con_box .left-box {
+  display: flex;
+  flex-direction: column;
+}
+.buy-box .con_box .left-box > uni-text {
+  margin-top: 8px;
+  font-size: 14px;
+}
+.buy-box .con_box .left-box .req-number,
+.buy-box .con_box .left-box .jiage {
+  color: #fb3335;
+}
+.history-box {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.53125rem 0;
+  margin-top: 20px;
+}
+.history-box .left {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.history-box .left > uni-image {
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-right: 0.3125rem;
+}
+.history-box .right > uni-image {
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-right: 12px;
+  margin-top: 3px;
+}
+.bottom-box {
+  width: 100%;
+  padding: 15px 0;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.bottom-box .btn1 {
+  background-color: #fc3234;
+  color: white;
+  width: 7.8125rem;
+}
+.bottom-box .btn1:hover {
+  opacity: 0.5;
+}
+.bottom-box .btn2 {
+  background-color: white;
+  color: #fc3234;
+  border: 1px solid #fc3234;
+  width: 7.8125rem;
+}
+.bottom-box .btn2:hover {
+  opacity: 0.5;
+}
+.bottom-box > uni-image {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: 20px;
+}

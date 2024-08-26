@@ -1,0 +1,45 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 主色 */
+.not_more {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+.scroll-Y {
+  height: 95vh;
+}
+.list-data-box .title_line_box {
+  width: 100%;
+  height: 1.5625rem;
+  background-color: #e2e2e2;
+  color: #707378;
+  line-height: 1.5625rem;
+  padding-left: 0.625rem;
+  margin-top: 0.3125rem;
+}
+.list-data-box .content_box {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  padding: 0.625rem;
+}
+.list-data-box .content_box .img_box {
+  margin-right: 0.75rem;
+}
+.list-data-box .content_box .img_box > uni-image {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.list-data-box .content_box .right_box {
+  font-size: 14px;
+}
+.list-data-box .content_box .right_box .line_title {
+  color: #545453;
+}
+.list-data-box .content_box .right_box .title_name {
+  color: #3f5991;
+}
+.list-data-box .content_box .right_box .title_lucky {
+  color: #dbafb8;
+}

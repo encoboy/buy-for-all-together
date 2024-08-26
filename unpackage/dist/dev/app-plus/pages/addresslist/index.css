@@ -1,0 +1,83 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 主色 */
+.uni-swipe[data-v-8ff2a577] {
+  position: relative;
+  overflow: hidden;
+}
+.uni-swipe_box[data-v-8ff2a577] {
+  display: flex;
+  flex-shrink: 0;
+  position: relative;
+}
+.uni-swipe_text--center[data-v-8ff2a577] {
+  width: 100%;
+  cursor: grab;
+}
+.uni-swipe_button-group[data-v-8ff2a577] {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.button-group--left[data-v-8ff2a577] {
+  left: 0;
+  transform: translateX(-100%);
+}
+.button-group--right[data-v-8ff2a577] {
+  right: 0;
+  transform: translateX(100%);
+}
+.uni-swipe_button[data-v-8ff2a577] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.uni-swipe_button-text[data-v-8ff2a577] {
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.ani[data-v-8ff2a577] {
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+/* 水平间距 */
+/* 水平间距 */
+/* 主色 */
+.not-address {
+  width: 100%;
+  margin-top: 3.125rem;
+  display: flex;
+  justify-content: center;
+}
+.not-address > uni-text {
+  font-size: 0.5rem;
+  color: gray;
+}
+.addrss-list .list-box {
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  padding: 0.625rem;
+}
+.addrss-list .list-box .info {
+  display: flex;
+  justify-content: space-between;
+}
+.addrss-list .list-box .info .def {
+  color: red;
+}
+.addrss-list .list-box .address {
+  margin-top: 0.375rem;
+}
+.btn-box {
+  position: fixed;
+  bottom: 1.5625rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

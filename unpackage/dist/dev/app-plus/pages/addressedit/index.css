@@ -1,0 +1,18 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 主色 */
+.list-box {
+  display: flex;
+  padding: 0.625rem 0.46875rem;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+.list-box > uni-text {
+  flex: 1;
+}
+.list-box > uni-input {
+  flex: 3;
+}
+.uni-btn-v {
+  margin: 0.9375rem 0.625rem;
+}
